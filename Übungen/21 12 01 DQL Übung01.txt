@@ -1,0 +1,9 @@
+01. Suppliers: Liste aller Supplier (ID und Name)
+02. Suppliers: Liste aller Supplier die eine Region eingetragen haben, sortiert nach Region aufsteigend
+03. Suppliers: Liste aller Supplier die aus Frankreich, Italien oder Deutschland sind
+
+04. Orders: Alle Bestellungen (OrderID, CustomerID) die ueber Moeglichkeit 3 versandt wurden
+  
+05. Customers: Liste aller Kunden sortiert aufsteigend nach Firmenname
+06. Customers: Liste aller Kunden (ID, Firmenname, Stadt, Land) sortiert nach Land aufsteigend, Stadt absteigend, Kontaktname aufsteigend
+07. Customers: Liste aller Kunden (ID, Firmenname), von denen die Kontaktperson entweder Owner oder Marketing Manager ist.

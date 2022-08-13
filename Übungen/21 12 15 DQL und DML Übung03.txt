@@ -1,0 +1,19 @@
+--01. Order Details: Alle Order Details die einen Discount haben
+
+--02. Order Details: Alle Order Details, sortiert OrderId aufsteigend, Quantity Absteigend, Unit Price absteigend
+
+--03. Suppliers: Alle suppliers aus den USA die "trade" im Namen haben
+
+--04. Suppliers: Alle Suppliers die keine Region eingetragen haben
+
+--05. Products: Die 5 Produkte von denen am Meisten auf Lager ist
+
+--06. Products: Alle Produkte (Id, Name, Kategorie, Preis) aus den Kategorien 4, 6, oder 8, die nicht discontinued sind und mehr als 20 kosten, sortiert nach Categorie Aufsteigend, Preis Absteigend, Name Aufsteigend
+
+--07. Products: Alle Produkte löschen die Discontinued sind und keine UnitsInStock mehr haben
+
+--08. Products: Bei allen Produkten wo die UnitsOnOrder 0 sind, die UnitsOnOrder auf den selben Wert wie das ReorderLevel setzen
+
+--09. Products: Bei allen Produkten die günstiger als 20 sind, den Preis um 5% erhöhen
+
+--10. Categories: Eine neue Kategorie einfügen: Name ist "Literature", Beschreibung ist "Books and Magazines", kein Bild

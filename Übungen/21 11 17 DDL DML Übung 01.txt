@@ -1,0 +1,29 @@
+1) Erstellen Sie eine Tabelle "Produkt" mit folgenden Spalten
+
+Id: Primärschlüssel, automatischer Wert
+Name: Soll internationale Zeichen erlauben, maximal 200 Zeichen, angabe erforderlich
+Nettopreis: Einzelpreise können bis in die zehntausende reichen, soll auf zwei Kommastellen genau sein, angabe erforderlich
+Mehrwertssteuer: Kleiner ganzzahliger Wert, angabe erforderlich, standardwert = 20
+Beschreibung: beliebig langer Text mit internationalen Zeichen, angabe optional
+BildPfad: text ohne internationale Zeichen, maximal 320 zeichen, angabe optional
+
+2) Pflegen Sie folgende Produkte in die Tabelle ein:
+
+Fluxkompensator
+15000 €, 20% MWst.
+Kernstück einer Zeitmaschine, die das Zeitreisen erst möglich macht.
+
+Dingelhopper
+3 €, 20% MWst.
+
+W-Lan Kabel
+13,37 €
+Pure Magie
+C:/bilder/wlankabel.png
+
+
+3) Erhöhen Sie die Nettopreise für alle Produkte die 10 Euro oder weniger kosten um 15%
+
+4) Fügen Sie für alle Produkte, die kein Produktbild haben, den Standard-Bildpfad C:/bilder/default.png ein
+
+5) Löschen Sie alle Produkte, die keine Produktbeschreibung haben

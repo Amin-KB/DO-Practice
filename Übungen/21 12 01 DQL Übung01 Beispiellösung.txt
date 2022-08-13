@@ -1,0 +1,37 @@
+USE Northwind
+GO
+
+--01. Suppliers: Liste aller Supplier (ID und Name)
+
+SELECT SupplierId, CompanyName FROM Suppliers
+
+--02. Suppliers: Liste aller Supplier die eine Region eingetragen haben, sortiert nach Region aufsteigend
+
+SELECT * FROM Suppliers 
+WHERE Region IS NOT NULL
+ORDER BY Region 
+
+--03. Suppliers: Liste aller Supplier die aus Frankreich, Italien oder Deutschland sind
+
+SELECT * FROM Suppliers 
+WHERE Country = 'France' OR Country = 'Germany' OR Country = 'Italy'
+
+--04. Orders: Alle Bestellungen (OrderID, CustomerID) die mit Moeglichkeit (ShipVia) 3 versandt wurden
+  
+SELECT OrderId, CustomerId FROM Orders
+WHERE ShipVia = 3
+
+--05. Customers: Liste aller Kunden sortiert aufsteigend nach Firmenname
+
+SELECT * FROM Customers
+ORDER BY CompanyName
+
+--06. Customers: Liste aller Kunden (ID, Firmenname, Stadt, Land) sortiert nach Land aufsteigend, Stadt absteigend, Kontaktname aufsteigend
+
+SELECT CustomerId, CompanyName, City, Country FROM Customers
+ORDER BY Country, City DESC, ContactName
+
+--07. Customers: Liste aller Kunden (ID, Firmenname), von denen die Kontaktperson entweder Owner oder Marketing Manager ist.
+
+SELECT CustomerId, CompanyName FROM Customers
+WHERE ContactTitle = 'Owner' OR ContactTitle = 'Marketing Manager'

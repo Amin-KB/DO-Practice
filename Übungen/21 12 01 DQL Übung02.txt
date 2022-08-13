@@ -1,0 +1,13 @@
+01. Products: Alle Produkte die Discontinued sind
+02. Products: Produktliste (Name) mit Preis, billigste zuerst
+03. Products: Produktliste (Name, ID) und Preis von allen Produkten die Billiger als 20 sind.
+04. Products: Produktliste (Name) und Preis von allen Produkten die zwischen 15 und 20 (inklusive) kosten.
+05. Products: Die zehn Teuersten Produkte, Name und Preis anzeigen
+06. Products: Liste von Produkten die aktuell sind (nicht discontinued) und bei denen weniger UnitsInStock sind als UnitsOnOrder. 
+
+07. Orders: Bestellung mit der schwersten Fracht
+08. Orders: Liste aller Bestellungen 1997
+09. Orders: Liste aller Bestellungen im Februar 1998
+10. Orders: Liste aller Bestellungen in die USA zwischen (inklusive) Mai 1997 und November 1997
+
+11. Employees: Alle Mitarbeiter (ID, Vorname, Nachname) die 1993 angestellt wurden

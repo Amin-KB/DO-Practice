@@ -1,0 +1,19 @@
+Ein Hotel möchte seine Buchungsverwaltung digitalisieren.
+
+Auf der Webseite des Hotels kann man eine Buchungsanfrage stellen. Bei der Buchungsanfrage müssen zunächst persönliche Daten angegeben werden: Anrede, Vorname, Nachname, Email, Telefonnummer. Danach gibt man die Anzahl der Gäste (Kinder und Erwachsene sind zu unterscheiden), die Anzahl der Zimmer, die gewünschte Zimmerkategorie, und den gewünschten Buchungszeitraum an. Außerdem kann ausgewählt werden, ob man rollstuhlgerechte Zimmer benötigt, und kann etwaige andere Sonderwünsche in einem Textfeld vermerken.
+
+Im letzten Schritt kann man auswählen, welche Pakete dazugebucht werden sollen.
+
+Pakete sind zum Beispiel die Art der Buchung (nur Frühstück, Halbpension, Vollpension), oder aber auch zB ein SPA Paket, oder ein Ausflugspaket. Jedes Paket hat eine Bezeichnung, einen Preis pro Person, einen Rabatt für Kinder, einen Steuersatz, sowie eine Paketkategorie. Paketkategorien können zum Beispiel "Buchungsart", "Ausflugspakete", "Kulinarikpakete", "Verwöhnpakete" sein. Die Paketkategorie gibt vor, ob der Preis eines Pakets ein einmaliger Preis ist, oder pro Tag des Aufenthalts gilt.
+
+Pakete können auch noch zum Zeitpunkt der Anreise, oder während des Aufenthalts dazugebucht werden. Daher muss die Anzahl der Tage für die ein Paket gültig ist, abgespeichert werden können (bei Paketen deren Preis auf einer pro-Tag Basis berechnet wird).
+
+Ein Mitarbeiter bearbeitet die Buchungsanfrage und bestätigt sie oder streicht die Anfrage. Dabei soll gespeichert werden welcher Mitarbeiter die Buchung zu welchem Zeitpunkt bestätigt bzw. gestrichen hat. Außerdem kann ein Mitarbeiter interne Kommentare hinzufügen (beim Streichen einer Buchung ist dies unbedingt notwendig).
+
+Wird eine Buchungsanfrage gestrichen, passiert nichts weiteres. Wird sie bestätigt, werden der Buchung Zimmer aus den passenden Zimmerkategorien zugewiesen.
+
+Zimmerkategorien (zb "Junior Suite", "Deluxe Suite", ...) haben einen Namen, eine maximale Anzahl von Gästen, sowie den Preis pro Nacht. Außerdem enthält es einen Pfad zu Beispielbildern für diese Zimmerkategorie. Ein Zimmer besteht aus einer Zimmernummer, ob in das Zimmer ein Zusatzbett gestellt werden kann, und ob das Zimmer rollstuhlgerecht ist. Außerdem kann auch eine Abweichung zum Kategorie-basierten Zimmerpreis angegeben werden.
+
+Jede Zimmerkategorie hat eine Liste an Ausstattungen, die für alle Zimmer in der Kategorie gelten. Einzelne Zimmer können aber Extraausstattungen haben.
+
+Das System soll außerdem auch Rechnungen für zusätzliche Dienste erfassen. Solche Rechnungen werden immer auf Zimmer geschrieben und werden erst am Ende des Aufenthalts bezahlt. Zusätzliche Dienste können zB Rechnungen aus dem Restaurant, von der Bar, etc. sein. Bei der Rechnung für einen Dienst sollen die Gesamtkosten, eine Beschreibung, einen Preis und einen Steuersatz abspeichern. Zusätzlich soll erfasst werden, welcher Mitarbeiter die Rechnung gebucht hat.
